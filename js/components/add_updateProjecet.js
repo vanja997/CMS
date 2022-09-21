@@ -1,9 +1,9 @@
-import tempConverter from "http://localhost/PMS/js/helpers/convertTempStrToDOM.js"
+import tempConverter from "http://localhost/CMS/js/helpers/convertTempStrToDOM.js"
 
 
 async function getData(){
   try{
-    const response = await fetch("http://localhost/PMS/active-projects.json");
+    const response = await fetch("http://localhost/CMS/active-projects.json");
     if(response.ok){
       return await response.json();
     }

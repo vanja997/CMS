@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="#" />
-  <link rel="stylesheet" href="http://localhost/PMS/css/main2.css">
+  <link rel="stylesheet" href="http://localhost/CMS/css/main2.css">
   <title>Home - Project Menagment Studio</title>
 </head>
 <body>
@@ -36,7 +36,7 @@
         </div>
         <div id="side-menu" class="scroll-wheel-stop">
           <ul>
-            <li data-location="/PMS/">
+            <li data-location="/CMS/">
               <div class="icon">
                 <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                   <path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
@@ -44,7 +44,7 @@
               </div>
               <div class="icon-text">Active projects</div>
             </li>
-            <li data-location="/PMS/addProject">
+            <li data-location="/CMS/addProject">
               <div class="icon">
                 <svg style="width:24px;height:24px" viewBox="0 0 24 24">
                   <path fill="currentColor" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
@@ -58,7 +58,7 @@
     </div>
     <div class="grid-item grid-item-main-content" id="main-content"></div>
   </div>
-  <script type="module" src="http://localhost/PMS/js/helpers.js"></script>
-  <script type="module" src="http://localhost/PMS/js/router.js"></script>
+  <script type="module" src="http://localhost/CMS/js/helpers.js"></script>
+  <script type="module" src="http://localhost/CMS/js/router.js"></script>
 </body>
 </html>

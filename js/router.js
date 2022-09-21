@@ -3,9 +3,9 @@ import Dashboard from "./components/Dashboard.js";
 
 const routerP = async () =>{
   const views = [
-    {path:"/PMS/",view: Dashboard},
-    {path:"/PMS/addProject",view: AddNewProject},
-    //{path:"/PMS/search",view: () => console.log("Ovo je Search stranica")}
+    {path:"/CMS/",view: Dashboard},
+    {path:"/CMS/addProject",view: AddNewProject},
+    //{path:"/CMS/search",view: () => console.log("Ovo je Search stranica")}
   ];
   //oznci koje rute odgovaraju url-u
   const checkCurrentRoute = views.map(view => {

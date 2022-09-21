@@ -37,7 +37,7 @@ export default class extends ParrentViewClass{
   constructor(){
     super();
     this.dataObj = {
-      url : "http://localhost/PMS/js/components/active-projects.json",
+      url : "http://localhost/CMS/js/components/active-projects.json",
       responseObjectName : "activeProjects",
     }
     this.data = null;
