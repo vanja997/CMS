@@ -1,0 +1,165 @@
+:root{
+  --darkGray: #2c3531;
+  --futuristicGreen: #116466;
+  --darkBrown: #D9B08C;
+  --lightBrown: #ffcb9a;
+  --lightBlue: #d1e8e2;
+}
+
+*{
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: rgb(30, 30, 30);
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+body{
+  max-width: 100%;
+  min-height: 100vh;
+  background: radial-gradient(#116466,#0f5a5c,#0e5052,#0c4647);
+}
+
+div#main-container > nav {
+  display: flex;
+  flex-direction: row;
+  padding: 0.75rem 0.5rem;
+  background:var(--darkGray);
+  justify-content: space-between;
+  overflow: scroll;
+}
+div#main-container > nav > div {
+  text-align: center;
+  padding: 0.5rem;
+  position: relative;
+}
+div#main-container > nav >div > i {
+  display: inline-block;
+}
+div#main-container > nav > div > p{
+  display: block;
+  color: #f9f9f9;
+  position: absolute;
+  left: 100%;
+  top: calc(50% - 0.750rem);
+  background-color: #4b475e;
+  box-sizing: content-box;
+  padding: 0.125rem 0.25rem;
+  box-shadow: #141414 0 0 0.5rem;
+  border-radius: 0.25rem;
+  max-width: 7rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: 0;
+  display: none;
+  line-height: 1.25rem;
+  cursor: default;
+}
+
+@media (min-width:600px){
+  div#main-container{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+    gap: 10px;
+  }
+  div#main-container > nav {
+    flex-direction: column;
+    justify-content: start;
+    overflow: visible;
+  }
+  div#main-container > nav > div > p {
+    display: block;
+    z-index: 15;
+  }
+  div#main-container > nav > div:hover {
+    box-shadow: #378b6a 0px 0px 10px;
+    border-radius: 1rem;
+    transform: scale(1.1);
+  }
+
+  div#main-container > nav > div:hover svg{
+    fill: #49B68B;
+  }
+
+  div#main-container > nav > div:hover p {
+    opacity: 1;
+    transition: opacity 500ms ease-in-out ;
+  }
+}
+
+/*------------------------------*/
+/* MAIN SECTION PART FOR CSS GOES FROM HERE */
+div#main-container > main {
+  display: grid;
+  grid-template-columns: 12rem 1fr;
+  grid-auto-rows: 40px;
+  gap: 10px;
+}
+
+div#search {
+  grid-column: span 2;
+}
+
+div#active-projects article{
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 38%, rgba(255, 255, 255, 0.06) 39%, rgba(30, 27, 38, 0.88) 48%, #1e1b26 50%);
+  border-radius: 0.9rem;
+  width: 370px;
+  min-height: 650px;
+  max-height: 650px;
+  box-shadow: 5px 5px 115px -14px black;
+  display: flex;
+  flex-direction: column;
+}
+div#active-projects article > div {
+  flex: 1 1 0px;
+}
+
+div#active-projects article > div:first-child {
+  background-image: url("https://srednjeskole.edukacija.rs/wp-content/uploads/2015/06/seoba-srba-paja-jovanovic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.9rem;
+  border-top-right-radius: 0.9rem;
+  mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, black), color-stop(0.35, black), color-stop(0.5, black), color-stop(0.65, black), color-stop(0.85, rgba(0, 0, 0, 0.6)), color-stop(1, #c91c1c00));
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, black), color-stop(0.35, black), color-stop(0.5, black), color-stop(0.65, black), color-stop(0.85, rgba(0, 0, 0, 0.6)), color-stop(1, #c91c1c00));
+  /* -webkit-mask-image: linear-gradient(to bottom, rgb(0, 0, 0) 85%, rgba(0, 0, 0, 0.65) 100%);
+  mask-image: linear-gradient(to bottom, black 75%, rgba(0, 0, 0, 0.5) 20%); */
+}
+
+div#active-projects article > div:last-child {
+  padding: 0 0.75rem;
+  color:#9b9b9b;
+}
+/*Custome scroll*/
+div#active-projects article > div:last-child .card-description{
+  overflow-y: auto;
+  max-height: 200px;
+}
+div#active-projects article > div:last-child .card-description::-webkit-scrollbar {
+  /*background: rgb(30, 30, 30, 0.66);
+  width: 0.5rem;*/
+}
+div#active-projects article > div:last-child::-webkit-scrollbar-thumb{
+  background-color: rgba(55, 55, 56, 0.66);
+}
+
+div#active-projects article > div:last-child div {
+  padding: 1%;
+  margin: 0% 0.5% 1% 0.5%;
+  color:inherit;
+}
+div#active-projects article > div:last-child div h1,h5,p {
+  color:inherit;
+  text-align: justify;
+  line-height: 1.3;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+

@@ -1,0 +1,22 @@
+{
+  "usefulData":[
+    {
+      "title":"Total done projects since beginning of the year",
+      "icon":"icons/calendar-check-outline.svg",
+      "value":"12",
+      "color":"lightcoral"
+    },
+    {
+      "title":"Total balance since beginning of the year",
+      "icon":"icons/currency-eur.svg",
+      "value":"6.950",
+      "color":"lightskyblue"
+    },
+    {
+      "title":"Active projects",
+      "icon":"icons/palette.svg",
+      "value":"4",
+      "color":"lightseagreen"
+    }
+  ]
+}
