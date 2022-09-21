@@ -1,0 +1,28 @@
+{
+  "activeProjects":[
+    {
+      "mainImage":"images/2048x1528.jpg",
+      "projectId":"1",
+      "imageAuthor":"Sava Šumanović",
+      "imageName":"Salaš"
+    },
+    {
+      "mainImage":"images/konjevic.jpg",
+      "projectId":"2",
+      "imageAuthor":"Milan Konjević",
+      "imageName":"Žetva"
+    },
+    {
+      "mainImage":"images/macevanje.jpg",
+      "projectId":"3",
+      "imageAuthor":"Paja Jovanović",
+      "imageName":"Mačevanje"
+    },
+    {
+      "mainImage":"images/petarL.jpg",
+      "projectId":"4",
+      "imageAuthor":"Petar Lubarda",
+      "imageName":"Slika"
+    }
+  ]
+}
