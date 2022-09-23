@@ -1,0 +1,85 @@
+{
+  "autor":"Sava Šumanović",
+  "godinaNastanka":1919,
+  "skola":"",
+  "naslov":"Zimski pejzaž",
+  "tipObjekta":"slika",
+  "tehnika":"ulje na platnu",
+  "signatura":{
+    "pozicija":"dole desno",
+    "potpis":"SŠ",
+    "pismo":"štampana ćirilica",
+    "boja":"crna",
+    "slikaPotpisa":[
+      {"img":"images/20220919_101207.jpg"},
+      {"img":"images/20220923_092007.jpg"}
+    ]
+  },
+  "vlasnik":"Prof. Dr. Živan Lazović",
+  "konervator":"Slavica Radulović",
+  "dimenzije":{
+    "visina": 26.5,
+    "sirina": 32,
+    "mernaJedinica":"cm"
+  },
+  "id":5,
+  "datumDolaska":"23 May 2022",
+  "datumOdlaska":"6 Jun 2022",
+  "slike":[
+    {
+      "naziv":"20220919_100308.jpg",
+      "dimenzije":{
+        "sirina":12000,
+        "visina":9000,
+        "mernaJedinica":"px"
+      },
+      "datumSlikanja":"19 Sep 2022",
+      "datumOtpremanja":"23 Sep 2022",
+      "url":"/images/20220919_100308.jpg"
+    },
+    {
+      "naziv":"20220919_100322.jpg",
+      "dimenzije":{
+        "sirina":12000,
+        "visina":9000,
+        "mernaJedinica":"px"
+      },
+      "datumSlikanja":"19 Sep 2022",
+      "datumOtpremanja":"23 Sep 2022",
+      "url":"/images/20220919_100322.jpg"
+    },
+    {
+      "naziv":"20220919_100403.jpg",
+      "dimenzije":{
+        "sirina":12000,
+        "visina":9000,
+        "mernaJedinica":"px"
+      },
+      "datumSlikanja":"19 Sep 2022",
+      "datumOtpremanja":"23 Sep 2022",
+      "url":"/images/20220919_100403.jpg"
+    },
+    {
+      "naziv":"20220919_101207.jpg",
+      "dimenzije":{
+        "sirina":12000,
+        "visina":9000,
+        "mernaJedinica":"px"
+      },
+      "datumSlikanja":"19 Sep 2022",
+      "datumOtpremanja":"23 Sep 2022",
+      "url":"/images/20220919_101207.jpg"
+    },
+    {
+      "naziv":"20220923_092007.jpg",
+      "dimenzije":{
+        "sirina":12000,
+        "visina":9000,
+        "mernaJedinica":"px"
+      },
+      "datumSlikanja":"23 Sep 2022",
+      "datumOtpremanja":"23 Sep 2022",
+      "url":"/images/20220923_092007.jpg"
+    }
+  ]
+}

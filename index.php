@@ -56,7 +56,19 @@
         </div>
       </div>
     </div>
-    <div class="grid-item grid-item-main-content" id="main-content"></div>
+    <div class="grid-item grid-item-main-content" id="main-content">
+      <div class="product-details-container">
+        <div class="product-details-text">
+          <h1>Sava Šumanović</h1>
+          <h3>Zimski pejzaž</h3>
+        </div>
+        <div class="product-details-galery">
+          <img src="/CMS/images/20220919_100308.jpg" alt="" width="500px" height="350px">
+          <img src="/CMS/images/20220919_100322.jpg" alt="" width="500px" height="350px">
+          
+        </div>
+      </div>
+    </div>
   </div>
   <script type="module" src="http://localhost/CMS/js/helpers.js"></script>
   <script type="module" src="http://localhost/CMS/js/router.js"></script>

@@ -4,25 +4,33 @@
       "mainImage":"images/2048x1528.jpg",
       "projectId":"1",
       "imageAuthor":"Sava Šumanović",
-      "imageName":"Salaš"
+      "imageName":"Salaš",
+      "activeFor":15,
+      "activeSince":"09.22.2022"
     },
     {
       "mainImage":"images/konjevic.jpg",
       "projectId":"2",
       "imageAuthor":"Milan Konjević",
-      "imageName":"Žetva"
+      "imageName":"Žetva",
+      "activeFor":30,
+      "activeSince":"08.22.2022"
     },
     {
       "mainImage":"images/macevanje.jpg",
       "projectId":"3",
       "imageAuthor":"Paja Jovanović",
-      "imageName":"Mačevanje"
+      "imageName":"Mačevanje",
+      "activeFor":5,
+      "activeSince":"09.17.2022"
     },
     {
       "mainImage":"images/petarL.jpg",
       "projectId":"4",
       "imageAuthor":"Petar Lubarda",
-      "imageName":"Slika"
+      "imageName":"Slika",
+      "activeFor":45,
+      "activeSince":"08.07.2022"
     }
   ]
 }

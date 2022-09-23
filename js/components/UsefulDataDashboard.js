@@ -1,33 +1,8 @@
-// async function createComponent(parentComp){
-//   const data = await getData();
-//   let activeProjectsComponent = document.createElement("div");
-//   activeProjectsComponent.classList.add("useful-info-data");
- 
-//   activeProjects.innerHTML ="";
-//   data["usefulData"].forEach(element => {
-//     let titleWords = element["title"].split(" ");
-//     for (let index = 0; index < titleWords.length; index++) {
-//       titleWords[index] = titleWords[index].charAt(0).toUpperCase()+titleWords[index].slice(1).toLowerCase();
-//     }
-//     let title = titleWords.join(" ");
-//     let projectBoxTemplate = `
-//     <div class="info-cont" style="background:${element["color"]};color:${element["color"]}">
-//       <div class="info-icon"><img src="${element["icon"]}" alt="Palet icon" height="48px" width="48px"></div>
-//       <div class="info-data">
-//         <div class="info-title">${title}</div>
-//         <div class="info-value">${element["value"]}</div>
-//       </div>
-//     </div>
-//     `;
-//     activeProjects.appendChild(tempConverter(projectBoxTemplate));
-//   });
-// }
-
 import ParrentViewClass from "./ParrentViewClass.js";
 
 export default class extends ParrentViewClass{
-  constructor(){
-    super();
+  constructor(params){
+    super(params);
     this.dataObj = {
       url : "http://localhost/CMS/js/components/usefulData.json",
       responseObjectName : "usefulData",
